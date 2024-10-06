@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billing</title>
+    <style>
+        @media print {
+            body {
+                
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            width: 100%;
+            height: 842px;
+            /* left: 1084px; */
+            background-color: #f6f8fc;
+            font-family: Arial, sans-serif;
+            color: #333;
+            padding: 30px;
+        }
+        .container{
+            display: flex;
+    justify-content: space-around; /* Distributes space evenly between items */
+    padding: 10px;
+        }
+        table, tr{
+            border-top: 1px solid silver;
+            border-bottom: 1px solid silver;
+            border-collapse: collapse;
+            font-size: 16px;
+        }
+        td{
+            color: grey;
+            margin-right: 5px;
+            padding: 4px;
+        }
+        th{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" style="color: gray; ">
+            8/17/24, 12:25 PM
+        </div>
+        <div class="box">
+            <span style="color: gray;">PAT ID:</span> 20312456489
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h3 style="color: rgb(8, 148, 148); font-size: 35px; font-weight: bolder;">HANSRAJ HOSPITAL</h3>
+        </div>
+        <div class="box">
+            <h5><span style="color: gray;">Vist:</span> 2/10/2014 | 05:36 PM</h5>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="box">
+            <h6 style="color: gray; font-size: 15px;">
+                PAT NAME: <span style="color: black;">Mr. Aditya Singh</span><br> <br>
+                AGE/SEX: 32/M <br><br>
+                ADDRESS: Arogya Mandir, Gorakhpur <br><br>
+                MOB NO: 9936414153
+            </h6>
+        </div>
+        <div class="box">
+            <h6 style="color: gray; font-size: 15px;">
+                CONSULTANT: <span style="color: black;">Dr. Rishav Mehta</span> <br> <br> 
+                CONSULTATION FEES: ₹500
+            </h6>
+        </div>
+        <div class="box">
+            <h6 style="color: gray; font-size: 15px;">
+                <span style="color: black;">Bill No:</span> 4F3S8J <br><br>
+                <span style="color: black;">OPD Type:</span> Regular <br><br>
+                <span style="color: black;">Payment Mode:</span> Cash
+            </h6>
+        </div>
+    </div>
+
+    <div>
+        <Table style=" width: 100%; margin-left: auto; margin-right: auto; "> 
+            <thead>
+                <tr>
+                    <th>Qty</th>
+                    <th>Product</th>
+                    <th>Serial #</th>
+                    <th>Description</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Call of Duty</td>
+                    <td>455-981-221</td>
+                    <td>El snort testosterone trophy driving gloves handsome</td>
+                    <td>₹64.50</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Need for Speed IV</td>
+                    <td>247-925-726</td>
+                    <td>Wes Anderson umami biodiesel</td>
+                    <td>₹50.00</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Monsters DVD</td>
+                    <td>735-845-642</td>
+                    <td>Terry Richardson helvetica tousled street art master</td>
+                    <td>₹10.70</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Grown Ups Blue Ray</td>
+                    <td>422-568-642</td>
+                    <td>Tousled lomo letterpress</td>
+                    <td>₹25.99</td>
+                </tr>
+            </tbody>
+        </Table>
+    </div>
+
+    <div>
+        <h5 style="font-size: 15px; color: grey;">Payment Methods:</h5>
+    </div><br>
+
+    <div class="container">
+        <div class="box">
+            <img style="width: 260px; height: auto;" src="payment img.png" alt="">
+            <div>
+                <h6 style="font-size: 15px; width: 360px; color: gray;">
+                    Etsy doostang zoodies disqus groupon greplin oooj voxy zoodles, weebly ning heekya handango imeem plugg dopplr jibjab, movity jajah plickers si eo edmodo i tt zimbra.
+                </h6>
+            </div>
+        </div>
+        <div class="box">
+            <table>
+                <tr>
+                    <th>Subtotal:</th>
+                    <td>₹250.30</td>
+                </tr>
+                <tr>
+                    <th>Tax (9.3%)</th>
+                    <td>₹10.34</td>
+                </tr>
+                <tr>
+                    <th>Shipping:</th>
+                    <td>₹5.80</td>
+                </tr>
+                <tr>
+                    <th>Total:</th>
+                    <td>₹265.24</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <h5 style="color: #4e4e4e; font-size: 15px;">PRINTED BY : Devash Tripathy</h5>
+        </div>
+        <div class="box">
+            <h5 style="color: #4e4e4e; font-size: 15px;">CREATED BY : Devash Tripathy</h5>
+        </div>
+    </div>
+</body>  
+<footer>
+    <div style="margin-top: 350px;">
+        <h6>Powered by <span style="font-size: 15px; color: green;">MediCare<span style="color: red;">360</span></span></h6>
+    </div>
+</footer>
+</html>

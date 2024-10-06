@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prescription 6</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+            padding: 0px;
+        }
+        .container {
+            width: 100%;
+            margin:  auto;
+            background-color: #0088d6;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .header {
+            background-color: #0088d6;
+            color: white;
+            padding: 60px 30px 20px 30px;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            position: relative;
+        }
+        .header .doctor-info {
+            float: left;
+            width: 33%;
+            margin: auto;
+        }
+        .header .doctor-info h1 {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        .header .doctor-info p {
+            margin: 4px 0;
+        }
+        .header .appointment-info {
+            float: left;  
+            width: 33%;
+            margin: auto;
+            font-size: 16px;
+            text-align: left;
+        }
+        .header .logoinfo{
+            width: 33%;
+            margin: auto;
+            float: left;
+        }
+        .logoinfo>img{
+            border-radius: 15px;
+            row-gap: 15px;
+            margin-right: 25px;
+            width: 70px;
+        }
+        .logoinfo>img:last-child{
+            margin-right: 0px;
+        }
+        .header .appointment-info p {
+            margin: 4px 0;
+        }
+        .header:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .patient-info {
+            background-color: #e3f2fd;
+            padding: 20px 30px;
+            margin-top: 22px;
+            border-bottom: 1px solid #ddd;
+            border-top-left-radius: 65px;
+            border-top-right-radius: 65px;
+            box-shadow: 4px -10px 15px rgba(0, 0, 0, 0.2); /* Top shadow */
+        }
+        .patient-info p {
+            margin: 5px 0;
+            font-size: 15px;
+        }
+        .patient-info .details {
+            display: flex;
+            justify-content: space-between;
+        }
+        /* .patient-info .details div {
+            
+        } */
+        .medical-info {
+            padding: 30px;
+            font-size: 16px;
+            min-height: 150px;
+        }
+        .medical-info .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .medical-info .info p {
+            flex: 1;
+            padding: 0 15px;
+            text-align: center;
+            background-color: #f0f0f0;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            background-color: #e3f2fd;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+        }
+        .footer .contact {
+            font-size: 14px;
+            color: #555;
+        }
+        .footer .contact p {
+            margin: 3px 0;
+        }
+        .footer .qr {
+            width: 60px;
+            height: 60px;
+            background: url('https://example.com/qr-code.png') no-repeat center center;
+            background-size: contain;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .rx{
+            height: 600px; 
+            width: 140px;
+            border-left: 1px solid silver; 
+            padding-top: 20px; 
+            padding-left: 60px; 
+            margin-left: auto;
+            background: #FFFFFF;
+        }
+        .cbody{
+            background: #FFFFFF; 
+            border-top-left-radius: 65px; 
+            border-top-right-radius: 65px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="logoinfo">
+                <img src="figlogo1.png" alt="">
+                <img src="figlogo1.png" alt="">
+                <h5 style="font-size: 16px;">Appt No: <span style="color: #f7f7f7;">6861256</span></h5>
+            <h5 style="font-size: 16px;">Date: <span style="color: #f7f7f7;">June 26, 2024 | 05:26:12</span></h5>
+            </div>
+            <div class="doctor-info">
+                <h1>Dr. Krishav Mehta</h1>
+                <p>M.D. (Med.), D.M. Gastroenterology</p>
+                <p>Consultant Gastroenterology</p>
+                <p>Hepatology & Therapeutic Endoscopy</p>
+            </div>
+            <div class="appointment-info">
+                <p>Gorakhpur, Uttar Pradesh 024562</p>
+                <p><strong>Phone no.:</strong> 9696-852-147</p>
+                <p><strong>Mail Id:</strong> <a href="mailto:cityhospital2024@gmail.com">cityhospital2024@gmail.com</a></p>
+                <p><strong>Website:</strong> <a href="http://www.cityhospital.com" target="_blank">www.cityhospital.com</a></p>
+            </div>
+        </div>
+
+        <div class="cbody">
+        <div class="patient-info">
+            <div class="details">
+                <div>
+                    <p><strong>Mr. Ravi Thakur (33Y/M)</strong></p>
+                    <p><strong>Patient Id:</strong> 968982345</p>
+                    <p><strong>Phone no:</strong> 9696-505-639</p>
+                    <p><strong>Email id:</strong> ravi.123@gmail.com</p>
+                </div>
+                <div>
+                    <p><strong>Guardian:</strong> Mr. Ajeet Kumar Sahu</p>
+                    <p><strong>Department:</strong> Gastroenterologist</p>
+                    <p><strong>Address:</strong> San Francisco, USA</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="rx">
+            <h4>
+                Rx <br><br>
+                Height <br><br>
+                Weight <br><br>
+                B.P
+            </h4>
+        </div>
+    </div>
+
+        <div class="footer">
+            <div class="contact">
+                <p style="font-weight: 500; color: black">MediCare 360© 2024</p>
+                <p>www.medicare360.com</p>
+                <p>contact@medicare360.com | 9699-235-159</p>
+            </div>
+            <div class="qr"><img style="width: 100%;" src="https://cdn.pixabay.com/photo/2013/07/12/14/45/qr-code-148732_1280.png" alt=""></div>
+        </div>
+    </div>
+
+</body>
+</html>
